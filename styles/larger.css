@@ -24,5 +24,11 @@
         grid-column-start: 3;
         grid-column-end: 4;
     }
+    #menu {
+		display: none;
+    }
+    .navigation li{
+        display: block;
+    }
 
 }
