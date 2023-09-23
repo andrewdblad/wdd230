@@ -1,0 +1,12 @@
+/* Larger Screens (Desktop) */
+@media (min-width: 650px) {
+    /* Display the navigation links */
+    .nav-links {
+        display: flex;
+    }
+
+    /* Hide the hamburger menu */
+    .hamburger-menu {
+        display: none;
+    }
+}

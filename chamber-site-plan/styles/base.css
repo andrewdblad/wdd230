@@ -1,0 +1,25 @@
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+header {
+    text-align: center;
+}
+.color-palette {
+    width: 400px;
+}
+h2, h3 {
+    color: #593a0e;
+}
+h1 {
+    color: #25591f;
+}
+.mobile-wireframe {
+    width: 300px;
+}
+.desktop-wireframe {
+    width: 800px;
+}

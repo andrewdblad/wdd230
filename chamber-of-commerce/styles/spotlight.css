@@ -1,0 +1,30 @@
+/* Spotlights Section Styles */
+.spotlights {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.spotlights h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.spotlight {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.spotlight img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.spotlight h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
