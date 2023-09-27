@@ -39,6 +39,31 @@ header h1 {
     border-radius: 8px;
     padding: 5px;
 }
+
+main {
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.temple-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -122,6 +147,15 @@ main h2 {
     list-style-type: none;
     padding: 1rem;
     border-radius: 5px;
+}
+.map {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.map iframe {
+    width:1000px; 
+    height: 450px;
 }
 footer {
     margin-top: 15px;

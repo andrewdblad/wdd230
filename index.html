@@ -20,7 +20,7 @@
 <body>
     <header>
         <div id="mode">☾</div>
-        <img src="images/Andrew.JPG" alt="Picture of me"> 
+        <img src="images/Andrew.webp" alt="Picture of me"> 
         <h1>Andrew Blad</h1> 
     </header>
     <nav>
@@ -33,6 +33,12 @@
         </ul>
     </nav>
     <main>
+        <picture>
+            <source srcset="images/fav-temple-mobile.webp" media="(max-width: 500px)">
+            <source srcset="images/fav-temple-desktop.webp" media="(min-width: 401px)">
+            <img src="images/fav-temple.jpe" alt="Latter-day Temple" class="temple-image">
+        </picture>
+        <div class="overlay">Meridian Temple</div>
         <h2>WDD 230: Web Frontend Development</h2>
         <div class="grid-container">
             <div class="item1">
@@ -53,11 +59,14 @@
                 <h3>Information</h3>
                 <ul>
                     <li>Rexburg, Idaho</li>
+                    <li>Total Page Visits: <span id="visit-counter">0</span></li>
                 </ul>
             </section>
             </div>
         </div>
-
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46216.572746460726!2d-116.44165409964144!3d43.616206071548525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54ae538b220ed685%3A0x536c60562646a434!2sMeridian%2C%20ID!5e0!3m2!1sen!2sus!4v1695856078463!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </main>
     <footer>
         <div>
@@ -68,5 +77,6 @@
     <script src="scripts/darkMode.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/menuButton.js"></script>
+    <script src="scripts/visitCount.js"></script>
 </body>
 </html>
