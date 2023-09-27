@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Lazy Load Example</title>
+</head>
+<body>
+    <header>
+        <h1>Lazy Load Example</h1>
+    </header>
+    <main>
+        <div class="image-container">
+            <picture>
+                <source srcset="images/car1.webp" width="500px">
+                <img src="placeholder_image.jpg" alt="Image 1" loading="lazy">
+            </picture>
+            <picture>
+                <source srcset="images/car2.webp" width="500px">
+                <img src="placeholder_image.jpg" alt="Image 1" loading="lazy">
+            </picture>
+            <picture>
+                <source srcset="images/car3.jpeg" width="500px">
+                <img src="placeholder_image.jpg" alt="Image 1" loading="lazy">
+            </picture>
+            <picture>
+                <source srcset="images/car4.webp" width="500px">
+                <img src="placeholder_image.jpg" alt="Image 1" loading="lazy">
+            </picture>
+            <picture>
+                <source srcset="images/car5.webp" width="500px">
+                <img src="placeholder_image.jpg" alt="Image 1" loading="lazy">
+                <picture>
+                    <source srcset="images/car6.jpeg" width="500px">
+                    <img src="placeholder_image.jpg" alt="Image 1" loading="lazy">
+                </picture>
+            </picture>
+        </div>
+    </main>
+    <footer>
+        <p id="last-modified"></p>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
