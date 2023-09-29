@@ -19,7 +19,7 @@ body, ul, li {
     display: flex;
     /* justify-content: space-between; */
     /* align-items: center; */
-    padding: 10px 0;
+    padding: 10px;
 }
 
 .logo {
@@ -32,12 +32,13 @@ body, ul, li {
 
 .nav-links {
     padding-top: 10px;
+    text-align: center;
     list-style: none;
     display: none; /* Hide navigation links by default for small screens */
 }
 
 .nav-links.active {
-    display: flex; /* Display navigation links when active (hamburger menu) */
+    display: block; /* Display navigation links when active (hamburger menu) */
 }
 
 .nav-links li {
@@ -54,7 +55,7 @@ body, ul, li {
     font-weight: bold;
 }
 
-.cta-button {
+.learn-button {
     background-color: #ff6600;
     color: #fff;
     padding: 10px 20px;

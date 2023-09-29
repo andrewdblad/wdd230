@@ -9,4 +9,12 @@
     .hamburger-menu {
         display: none;
     }
+    .join-button, .learn-button {
+        background-color: #ff6600;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
 }
