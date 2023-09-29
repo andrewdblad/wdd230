@@ -1,4 +1,7 @@
 /* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+}
 body, ul, li {
     margin: 0;
     padding: 0;
@@ -59,7 +62,8 @@ body, ul, li {
     font-weight: bold;
 }
 
-.learn-button {
+
+.learn-button, .join-button-bottom {
     background-color: #ff6600;
     color: #fff;
     padding: 10px 20px;
@@ -112,4 +116,11 @@ body, ul, li {
 .cta h2 {
     font-size: 24px;
     margin-bottom: 20px;
+}
+footer p{
+    margin: 0 auto;
+    color: #f0f0f0;
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
 }
