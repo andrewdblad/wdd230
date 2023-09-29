@@ -8,7 +8,8 @@ body, ul, li {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -41,12 +42,15 @@ body, ul, li {
     display: block; /* Display navigation links when active (hamburger menu) */
 }
 
-.nav-links li {
-    margin-right: 20px;
-}
-
 .nav-links li:last-child {
     margin-right: 0;
+}
+.nav-links li {
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+.nav-links li:hover {
+    background-color: #ff6600;
 }
 
 .nav-links a {
