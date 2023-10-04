@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="images/favicon.png">
+    <title>Chamber of Commerce</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a class="logo">Chamber of Commerce</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a>Directory</a></li>
+                <li><a href="join.html" class="join-button">Join</a></li>
+            </ul>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Membership Application</title>
+    </head>
+    <body>
+        <div class="form-container">
+            <form action="thankyou.html" method="get" id="membershipForm">
+                <div class="form-group">
+                    <label for="first_name">Applicant's First Name:</label>
+                    <input type="text" id="first_name" name="first_name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last_name">Applicant's Last Name:</label>
+                    <input type="text" id="last_name" name="last_name" required>
+                </div>
+                <div class="form-group">
+                    <label for="title">Title or Position:</label>
+                    <input type="text" id="title" name="title" pattern="[A-Za-z\s\-]{7,}" title="Only alphabets, spaces, and hyphens are allowed with a minimum of seven characters">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Mobile Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="org_name">Business/Organization's Name:</label>
+                    <input type="text" id="org_name" name="org_name" required>
+                </div>
+                <div class="form-group">
+                    <label for="membership_level">Membership Level:</label>
+                    <select id="membership_level" name="membership_level">
+                        <option value="NP Membership">NP Membership (No Fee)</option>
+                        <option value="Bronze Membership">Bronze Membership</option>
+                        <option value="Silver Membership">Silver Membership</option>
+                        <option value="Gold Membership">Gold Membership</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="description">Business/Organization's Description:</label>
+                    <textarea id="description" name="description"></textarea>
+                </div>
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+                <button type="submit">Enter the Chamber!</button>
+            </form>
+            <div class="benefits">
+                <h2>Membership Benefits:</h2>
+                <h3>NP(Free):</h3>
+                    <li>No fee for non-profits.</li>
+                    <li>Access to member-only events.</li>
+                    <li>Listing in our online directory.</li>
+                <h3>Bronze ($99/m):</h3>
+                    <li>Discounts on training programs.</li>
+                    <li>Featured listing in our newsletter.</li>
+                    <li>Priority registration for workshops and seminars.</li>
+                <h3>Silver ($149/m):</h3>
+                    <li>Spotlight position on our website's home page.</li>
+                    <li>Special access to premium events and workshops.</li>
+                    <li>Exclusive networking opportunities with industry leaders.</li>
+                <h3>Gold ($299/m):</h3>
+                    <li>Priority advertising opportunities on our website.</li>
+                    <li>Exclusive access to VIP events and conferences.</li>
+                    <li>Personalized consultation with our experts.</li>
+                    <li>Access to premium resources and industry reports.</li>
+            </div>
+            
+        </div>
+        
+    </body>
+    </html>
+    
+
+    <footer>
+        <p>&copy;Andrew Blad 2023</p>
+    </footer>
+<script src="scripts/menu.js"></script>
+</body>
+</html>
