@@ -1,0 +1,53 @@
+/* CSS styles for the member directory */
+
+
+.header {
+    text-align: center;
+}
+img {
+    display: flex;
+    width: 150px;
+}
+.header button {
+    border: none;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.members-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Member card styles */
+.member-card {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.member-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Member list styles */
+.member-list-item {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+

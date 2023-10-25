@@ -1,0 +1,67 @@
+{
+    "members": [
+      {
+        "name": "Nike",
+        "address": "123 Oak Ave, Boise, Idaho",
+        "phone": "123-456-7890",
+        "website": "https://www.nike.com",
+        "image": "images/directory/nike.webp",
+        "membershipLevel": "Gold",
+        "otherInfo": "Some additional information"
+      },
+      {
+        "name": "Adidas",
+        "address": "456 Elm St, City, Country",
+        "phone": "987-654-3254",
+        "website": "https://www.adidas.com",
+        "image": "images/directory/adidas.webp",
+        "membershipLevel": "Silver",
+        "otherInfo": "Additional details"
+      },
+      {
+        "name": "Fly Racing",
+        "address": "789 Pine St, Boise, Idaho",
+        "phone": "653-435-3210",
+        "website": "https://www.flyracing.com",
+        "image": "images/directory/fly.webp",
+        "membershipLevel": "Silver",
+        "otherInfo": "Additional details"
+      },
+      {
+        "name": "Albertsons",
+        "address": "456 Birch Rd, Boise, Idaho",
+        "phone": "987-654-3210",
+        "website": "https://www.albertsons.com",
+        "image": "images/directory/albertsons.webp",
+        "membershipLevel": "Silver",
+        "otherInfo": "Additional details"
+      },
+      {
+        "name": "Blue Cross Idaho",
+        "address": "321 Cedar Lane, Boise, Idaho",
+        "phone": "208-654-4389",
+        "website": "https://www.bluecrossidaho.com",
+        "image": "images/directory/bluecrossidaho.webp",
+        "membershipLevel": "Silver",
+        "otherInfo": "Additional details"
+      },
+      {
+        "name": "Winco Foods",
+        "address": "555 Spruce Way, Boise, Idaho",
+        "phone": "232-654-3210",
+        "website": "https://www.wincofoods.com",
+        "image": "images/directory/winco.webp",
+        "membershipLevel": "Silver",
+        "otherInfo": "Additional details"
+      },
+      {
+        "name": "Fred Meyer",
+        "address": "654 Willow Drive, Boise, Idaho",
+        "phone": "453-653-3530",
+        "website": "https://www.fredmeyer.com",
+        "image": "images/directory/fredmeyer.webp",
+        "membershipLevel": "Silver",
+        "otherInfo": "Additional details"
+      }
+    ]
+  }
